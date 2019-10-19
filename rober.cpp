@@ -5,7 +5,9 @@ int main(int argc,chat *argv[])
         QApplication app(argc,argv);
         QWidget a;
 	a.setWindowTitle("huashanjianfa");
-        a.show()
+
+
+        a.show()  //显示窗口 
 	exec();
         return 0; 
 }
